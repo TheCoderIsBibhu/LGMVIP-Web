@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    background-image: url("../pic/abtu.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    background-attachment: scroll;
+    
+
+
+   
+}
+.header{
+    /* border-bottom: 1px solid #E2E8F0; */
+    background:#6d6d6d3f;
+    height: 8rem;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+     
+} 
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10rem;
+    margin-top: 0.6rem;
+
+}
+
+.nav-item {
+    margin-left: 5rem;    
+}
+.btn-body{
+    /* border: #060030 solid;  */
+    
+    text-align: center;
+}
+.ucard{
+    /* border: #060030 solid; */
+    height: 160vh;
+    padding-top: 10rem;
+    background: #1a1a1a4d;
+}
+.mybtn{
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: #fbfcfd;
+    letter-spacing: 1px;
+    padding: 10px;
+    border:2px solid white;
+    background: #08003b;
+    transition: all 0.5s ease-in-out;
+    border-radius: 3px;
+   
+}
+
+.mybtn:hover{
+    background: #f8f8f8;
+    /* padding: 10px; */
+    border-radius: 0.5rem;
+    color: #060030;
+}
+
+.nav-logo {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+  
+}
+.nav-logo img{
+    height: 7rem;
+    border-radius: 50%;
+    
+}
+.nav-logo p{
+    font-size: 2.9rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #fdfdff;
+    margin-left: 2rem;
+}
+.preloder{
+    color: white;
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    height: 50vh;
+}
+.ubody .row{
+    /* background-color:rgba(68, 68, 68, 0.534); */
+    margin-left: auto;
+    /* border: #030014 solid; */
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+}
+.card{
+    background-color: rgba(179, 179, 179, 0.835);
+    /* border: 1px solid black; */
+    width: 30rem;
+    height: 36rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.287);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+
+}
+.avatar img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 12px;
+    transition: all 0.5s;
+}
+.avatar img:hover{
+    height: 23rem;
+    border-radius: 50%;
+    width: 23rem;
+
+}
+.name{
+    color: #360038;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.email ,p{
+    color: #2e0028;
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+}
